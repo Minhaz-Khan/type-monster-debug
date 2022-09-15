@@ -122,6 +122,7 @@ const start = () => {
     }
     count--;
   }, 1000);
+  countdownOverlay.innerHTML = `<h1>${''}</h1>`;
 };
 
 // START Countdown
